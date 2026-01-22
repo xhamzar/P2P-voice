@@ -18,6 +18,13 @@
     "jsx": "react-jsx",
     "types": ["node"]
   },
-  "include": ["index.tsx", "App.tsx", "types.ts", "constants.ts", "services/**/*.ts", "components/**/*.tsx"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "include": [
+    "index.tsx", 
+    "App.tsx", 
+    "types.ts", 
+    "constants.ts", 
+    "services/**/*.ts", 
+    "components/**/*.tsx"
+  ],
+  "exclude": ["node_modules", "dist", "vite.config.ts"]
 }
