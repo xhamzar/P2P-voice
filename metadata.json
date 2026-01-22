@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Low-Bandwidth P2P Voice",
+  "description": "An ultra-efficient WebRTC voice call system optimized for low data usage (8-24kbps) and unstable networks using Opus mono at 16kHz.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
